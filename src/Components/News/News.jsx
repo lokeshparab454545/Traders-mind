@@ -13,6 +13,10 @@ const News = () => {
         }
         getData();
     }, []);
+
+    if (!data || !data.length) {
+        return;
+    }
     return (
         <section className='news' id='news'>
             <h1>Stock News</h1>
