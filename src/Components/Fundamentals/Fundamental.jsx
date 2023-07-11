@@ -40,7 +40,7 @@ const Fundamental = () => {
             setFilterStocks(allStock);
         }
     }
-    if (!filterStocks || !filtefilterStocksrData.length) {
+    if (!filterStocks || !filterStocks.length) {
         return;
     }
     return (
