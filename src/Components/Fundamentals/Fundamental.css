@@ -1,0 +1,141 @@
+.fundamentals h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--bold-text-color);
+}
+
+.fundamentals p {
+    text-align: center;
+    color: var(--text-color);
+}
+
+.fundamental-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.stock-search {
+    margin-top: 40px;
+}
+
+.stock-search {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.stock-search input {
+    outline: none;
+    border: none;
+    background-color: var(--background-color);
+    padding: 15px;
+    border-radius: 8px;
+    width: 400px;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.stock-search button {
+    color: var(--background-color);
+    background-color: var(--bold-text-color);
+    width: 140px;
+    border-radius: 12px;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    height: 45px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.stock-table {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.stock-table td {
+    padding: 2px 8px;
+    border: 1px solid black;
+}
+
+.stock-table th {
+    padding: 8px 4px;
+    background-color: #0e2d3f;
+    color: var(--background-color);
+}
+
+.stock-table tr:hover {
+    background-color: var(--background-color);
+    color: var(--bold-text-color);
+}
+
+.stock-name {
+    width: 50%;
+}
+
+
+.arrow {
+    text-align: end;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.icon i {
+    font-size: 20px;
+
+}
+
+.arrow .icon {
+    background-color: #000;
+    color: var(--background-color);
+    border-radius: 2px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.arrow .icon:hover {
+    transform: scale(0.9);
+    transition: 0.2s all ease;
+}
+
+.align {
+    text-align: center;
+}
+
+@media (max-width: 720px) {
+    .fundamentals h1 {
+        font-size: 28px;
+    }
+
+    .stock-table {
+        width: 90%;
+    }
+
+    .stock-name {
+        width: 40%;
+    }
+
+    .stock-search input {
+        width: 250px;
+    }
+
+    .stock-search button {
+        width: 80px;
+    }
+
+    .stock-table {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 420px) {
+    .stock-table {
+        width: 95%;
+    }
+}

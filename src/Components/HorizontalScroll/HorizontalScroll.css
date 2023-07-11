@@ -1,0 +1,64 @@
+.slider {
+    overflow: hidden;
+    padding-top: 22px;
+    background-color: #e3f1f5;
+    height: 125px;
+}
+
+.slider-track {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    animation: scroll 50s linear infinite;
+}
+
+.scroll {
+    border-radius: 8px;
+    display: flex;
+    background-color: white;
+    padding: 8px 12px;
+    align-items: center;
+    gap: 2px;
+    justify-content: space-between;
+    min-width: 180px;
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.scroll-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+}
+
+.scroll p {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.scroll .price-change span {
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 6px;
+}
+
+.scroll-icon i {
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(690px);
+    }
+
+    100% {
+        transform: translateX(calc(-100px *7));
+    }
+}

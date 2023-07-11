@@ -1,0 +1,138 @@
+.calci h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--bold-text-color);
+}
+
+.calci p {
+    text-align: center;
+    color: var(--text-color);
+}
+
+.cali-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.calci-img {
+    width: 50%;
+}
+
+.calci-img img {
+    width: 90%;
+}
+
+.calci-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.calci-input h3 {
+    margin-bottom: 5px;
+}
+
+span {
+    color: #3783f6;
+}
+
+.calci-input input {
+    outline: none;
+    border: none;
+    background-color: var(--background-color);
+    padding: 15px;
+    border-radius: 8px;
+    width: 400px;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.calci-op {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.calci-ele {
+    color: white;
+    padding: 12px 15px;
+    border-radius: 8px;
+    width: 32%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 18px;
+    align-items: center;
+}
+
+
+.calci-ele img {
+    width: 40px;
+    margin-left: 5px;
+}
+
+
+
+.calci-btn {
+    color: var(--background-color);
+    background-color: var(--bold-text-color);
+    width: 140px;
+    border-radius: 12px;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    height: 45px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.calci-btn:hover {
+    transition: 0.2s all ease;
+    transform: scale(0.9);
+}
+
+@media (max-width: 1200px) {
+    .cali-wrapper {
+        margin: 40px 0;
+    }
+
+    .calci-op {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .calci-ele {
+        width: 500px;
+    }
+
+}
+
+@media (max-width: 820px) {
+    .calci-img {
+        display: none;
+    }
+
+    .calci-ele {
+        width: 400px;
+    }
+}
+
+@media (max-width: 520px) {
+    .calci h1 {
+        font-size: 32px;
+    }
+
+    .calci-input h3 {
+        font-size: 16px;
+    }
+
+    .calci-ele,
+    .calci-input input {
+        width: 340px;
+    }
+}

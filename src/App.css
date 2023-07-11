@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background-color: #f5fdff;
+  --bold-text-color: #01084c;
+  --text-color: #197088;
+  --btn-color: #3783f6;
+}
+
+body {
+  font-family: 'Geologica', sans-serif;
+
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2,
+h3 {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0px 15px;
+  margin: auto;
+
+}
+
+@media (max-width: 1140px) {
+  .container {
+    max-width: 820px;
+    overflow: hidden;
+  }
+}
