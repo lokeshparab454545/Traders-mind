@@ -40,6 +40,9 @@ const Fundamental = () => {
             setFilterStocks(allStock);
         }
     }
+    if (!filterStocks || !filtefilterStocksrData.length) {
+        return;
+    }
     return (
         <section className='fundamentals' id='fund'>
             <div className="container fundamental-wrapper">
