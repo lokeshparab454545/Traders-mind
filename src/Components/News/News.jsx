@@ -23,7 +23,7 @@ const News = () => {
             <p>Get all the latest stock market news and updates</p>
             <div className='container news-wrapper'>
                 {
-                    data.slice(21, 30).map((news, i) => (
+                    data.slice(0, 9).map((news, i) => (
                         <NewsCard key={i} news={news} />
                     ))
                 }
