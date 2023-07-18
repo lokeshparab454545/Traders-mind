@@ -7,9 +7,10 @@ const News = () => {
 
     useEffect(() => {
         const getData = async () => {
-            const response = await fetch("https://newsapi.org/v2/everything?q=nse&from=publishedAt&sortBy=publishedAt&apiKey=50e72b6da1e54ffcb1a5217b95b26cd1");
+            const response = await fetch("https://newsdata.io/api/1/news?apikey=pub_2578877b68ff116f64b0404102cdb2b1a5cab&q=stocks&country=in&language=en&category=business");
             const newsData = await response.json();
-            setData(newsData?.articles);
+            setData(newsData?.results);
+            console.log(newsData?.results);
         }
         getData();
     }, []);
