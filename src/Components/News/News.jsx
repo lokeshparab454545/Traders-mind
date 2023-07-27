@@ -10,7 +10,6 @@ const News = () => {
             const response = await fetch("https://newsdata.io/api/1/news?apikey=pub_2578877b68ff116f64b0404102cdb2b1a5cab&q=stocks&country=in&language=en&category=business");
             const newsData = await response.json();
             setData(newsData?.results);
-            console.log(newsData?.results);
         }
         getData();
     }, []);

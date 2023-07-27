@@ -15,8 +15,8 @@ const Navbar = () => {
                 <div className={(navToggle) ? "nav-links-active" : "nav-links"}>
                     <ul>
                         <li onClick={() => toggle()}><a href="#">Home</a></li>
-                        <li onClick={() => toggle()}><a href="#fund">Fundamentals</a></li>
-                        <li onClick={() => toggle()}><a href="#tech">Technicals</a></li>
+                        <li onClick={() => toggle()}><a href="#fund">Technicals</a></li>
+                        <li onClick={() => toggle()}><a href="#tech">Learn</a></li>
                         <li onClick={() => toggle()}><a href="#news">News</a></li>
                     </ul>
                 </div>

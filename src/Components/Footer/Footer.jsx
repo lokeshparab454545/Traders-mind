@@ -14,8 +14,8 @@ const Footer = () => {
                     <div className="col" id='footer-service'>
                         <h3>About</h3>
                         <a href='#home'>Home</a>
-                        <a href='#fund'>Fundamentals</a>
-                        <a href='#tech'>Technicals</a>
+                        <a href='#fund'>Technicals</a>
+                        <a href='#tech'>Learn</a>
                         <a href='#news'>News</a>
                     </div>
                     <div className="col">

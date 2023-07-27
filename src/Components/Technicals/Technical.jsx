@@ -19,7 +19,7 @@ const Technical = () => {
     return (
         <section className='technicals' id='tech'>
             <div className="container">
-                <h1>Technical Analysis</h1>
+                <h1>Learn Now</h1>
                 <p>Learn all of the basic Technical concepts</p>
                 <div className="technical-wrapper">
                     <div onClick={() => openLect1()} className="lect">
