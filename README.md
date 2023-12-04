@@ -1,8 +1,8 @@
 # TradersMind: 
 
-Live Link : https://traders-mind.netlify.app/
+Live Link: https://traders-mind.netlify.app/
 
-Welcome to our responsive online trading platform designed to empower users with valuable insights into the Indian Stock Market. This comprehensive website combines cutting-edge features to enhance the trading and investment experience.
+A responsive online trading platform designed to empower users with valuable insights into the Indian Stock Market. This comprehensive website combines cutting-edge features to enhance the trading and investment experience.
 
 
 Key Features:
